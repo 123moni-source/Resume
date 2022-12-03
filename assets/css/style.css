@@ -33,6 +33,24 @@ h6 {
   font-family: "Raleway", sans-serif;
 }
 
+
+#btnback{
+  padding: .4rem 1.5rem;
+  background: transparent;
+  border-radius: 1rem;
+  font-size: 1rem;
+  position: fixed;
+  right: 5rem;
+  top: 2rem;
+  z-index: 3000;
+  color: white;
+  box-shadow: 0 0 10px gray;
+}
+
+#btnback:hover{
+  transform: scale(1.05);
+}
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
